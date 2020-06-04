@@ -1,0 +1,10 @@
+dist
+README copy.md
+README.txt
+__MACOSX/
+LICENSE.txt
+node_modules
+.npm
+build/release
+lib-cov
+.grunt

@@ -1,0 +1,24 @@
+version: 0.1
+phases:
+  pre_build:
+    commands:
+      - npm install
+  build:
+    commands:
+      - npm run webpack
+artifacts:
+  files:
+    - images/*
+    - assets/css/images/*
+    - assets/css/*
+    - assets/fonts/*
+    - assets/js/*
+    - assets/sass/lib/*
+    - assets/sass/*
+    - index.html
+    - About.html
+    - Certs.html
+    - Tech.html
+    - Work_History.html
+    - dist/bundle.js
+    - js/example-work.js
